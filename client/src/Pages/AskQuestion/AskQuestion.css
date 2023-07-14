@@ -1,0 +1,59 @@
+.ask-question{
+    min-height: 100vh;
+    background-color: rgb(255, 233, 237);
+}
+.ask-ques-container{
+    margin: auto;
+    max-width: 800px;
+    background-color: rgb(255, 233, 237);
+    
+}
+.ask-ques-container h1{
+    padding: 80px 0px 20px 0px;
+    color: purple;
+    
+}
+.ask-ques-container form .ask-form-container{
+    padding: 20px;
+    background-color: rgb(253, 233, 237);
+    border-radius: 3px;
+    box-shadow: 0 10px 25px rgb(0 0 0 / 5%),
+    0 10px 25px rgb(0 0 0 / 5%),
+    0 10px 25px rgb(0 0 0 / 5%) ;
+}
+
+.ask-form-container label h4{
+    margin-bottom: 0%;
+
+}
+
+.ask-form-container label p{
+    margin: 0%;
+    font-size: 13px;
+    padding: 3px 0px;
+}
+.ask-form-container label input,
+.ask-form-container label textarea{
+    padding: 10px;
+    border: solid 1px purple;
+    font-family: 'Roboto', sans-serif;
+    width: calc(100% - 20px);
+    resize: vertical;
+    background-color: rgb(253, 233, 237);
+}
+.review-btn{
+    margin: 50px 0px;
+    padding: 10px ;
+    background-color: rgb(253, 233, 237);
+    border: none;
+    border: solid 1px purple;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.review-btn:hover{
+    background-color: rgb(90, 10, 90);
+    color: white;
+}
